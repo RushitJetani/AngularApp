@@ -1,59 +1,63 @@
-# AngularAssignment
+# 🌟 Angular Assignment - Rushit Jetani
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This is a modern Angular 18 single-page application built with **standalone components**, **client-side routing**, **HTTP API integration**, and **reactive forms** — all styled for a clean, user-friendly experience.
 
-## Development server
+Deployed Live: [🔗 View Application](https://angular-app-xi-dun.vercel.app/)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/18938e57-5f73-4e8e-94de-6b4d2ada299e)
+![image](https://github.com/user-attachments/assets/2b325561-015a-453b-af8e-f5bec965c278)
+![image](https://github.com/user-attachments/assets/754ff28c-f99b-4109-9c57-59a0e2fb7afe)
+![image](https://github.com/user-attachments/assets/5cc7da97-d135-43f3-bed3-6be9ec1991e5)
+
+
+---
+
+## 🚀 Features
+
+- ✅ Angular 18 using **standalone architecture**
+- ✅ Clean **navigation bar** with `routerLink`
+- ✅ **Home Page** – simple intro
+- ✅ **API Data Page** – fetches posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- ✅ **Form Page** – reactive form with validation and user feedback
+- ✅ Built-in **form validation** and error display
+- ✅ Fully **responsive** and clean UI with custom CSS
+- ✅ Production-ready & deployed on **[Vercel]**
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Tech               | Description                                 |
+|--------------------|---------------------------------------------|
+| Angular 18         | Modern SPA framework (with standalone APIs) |
+| Angular Router     | Client-side navigation                      |
+| HttpClient         | API calls to fetch external data            |
+| ReactiveFormsModule| Type-safe form control with validation      |
+| JSONPlaceholder API| Public dummy API for demo data              |
+| CSS                | Simple custom styling (no framework used)   |
+| Deployed via       | Vercel                                      |
+
+---
+
+## 🧩 Project Structure
+
+```
+src/
+├── app/
+│   ├── pages/
+│   │   ├── home/       → HomeComponent
+│   │   ├── api-data/   → Fetches and displays API data
+│   │   └── form/       → Reactive form with validation
+│   ├── components/
+│   │   └── navbar/     → Navigation bar component
+│   ├── services/
+│   │   └── data.service.ts → API interaction logic
+│   ├── app.config.ts   → Angular providers (router, http)
+│   ├── app.routes.ts   → Route definitions
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
